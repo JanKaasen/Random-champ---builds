@@ -1,0 +1,373 @@
+{
+  "Precision": [
+    {
+      "name": "Conqueror",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/conqueror/conqueror.png"
+    },
+    {
+      "name": "Lethal Tempo",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/lethaltempo/lethaltempotemp.png"
+    },
+    {
+      "name": "Press the attack",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/presstheattack/presstheattack.png"
+    },
+    {
+      "name": "Fleet footwork",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/fleetfootwork/fleetfootwork.png"
+    },
+    {
+      "name": "Overheal",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/overheal.png"
+    },
+    {
+      "name": "Triumph",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/triumph.png"
+    },
+    {
+      "name": "Presence of Mind",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/presenceofmind/presenceofmind.png"
+    },
+    {
+      "name": "Legend: Alacrity",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendalacrity/legendalacrity.png"
+    },
+    {
+      "name": "Legend: Tenacity",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendtenacity/legendtenacity.png"
+    },
+    {
+      "name": "Legend: Bloodline",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendbloodline/legendbloodline.png"
+    },
+    {
+      "name": "Coup de Grace",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/coupdegrace/coupdegrace.png"
+    },
+    {
+      "name": "Cut Down",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/cutdown/cutdown.png"
+    },
+    {
+      "name": "Last Stand",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/laststand/laststand.png"
+    }
+  ],
+  "Domination": [
+    {
+      "name": "Electrocute",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/electrocute/electrocute.png"
+    },
+    {
+      "name": "Predator",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/predator/predator.png"
+    },
+    {
+      "name": "Hail of blades",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/hailofblades/hailofblades.png"
+    },
+    {
+      "name": "Cheap Shot",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/cheapshot/cheapshot.png"
+    },
+    {
+      "name": "Taste of Blood",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/tasteofblood/greenterror_tasteofblood.png"
+    },
+    {
+      "name": "Sudden Impact",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/suddenimpact/suddenimpact.png"
+    },
+    {
+      "name": "Zombie Ward",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/zombieward/zombieward.png"
+    },
+    {
+      "name": "Ghost Poro",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/ghostporo/ghostporo.png"
+    },
+    {
+      "name": "Eyeball Collection",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/eyeballcollection/eyeballcollection.png"
+    },
+    {
+      "name": "Treasure Hunter",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/treasurehunter/treasurehunter.png"
+    },
+    {
+      "name": "Ingenious Hunter",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/ingenioushunter/ingenioushunter.png"
+    },
+    {
+      "name": "Relentless Hunter",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/relentlesshunter/relentlesshunter.png"
+    },
+    {
+      "name": "Ultimate Hunter",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/ultimatehunter/ultimatehunter.png"
+    }
+  ],
+  "Sorcery": [
+    {
+      "name": "Summon Aery",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/summonaery/summonaery.png"
+    },
+    {
+      "name": "Arcane Comet",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/arcanecomet/arcanecomet.png"
+    },
+    {
+      "name": "Phase Rush",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/phaserush/phaserush.png"
+    },
+    {
+      "name": "Nullifying Orb",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/nimbuscloak/6361.png"
+    },
+    {
+      "name": "Manaflow Band",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/manaflowband/manaflowband.png"
+    },
+    {
+      "name": "Nimbus Cloak",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/nimbuscloak/6361.png"
+    },
+    {
+      "name": "Transcendence",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/transcendence/transcendence.png"
+    },
+    {
+      "name": "Celerity",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/celerity/celeritytemp.png"
+    },
+    {
+      "name": "Absolute Focus",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/absolutefocus/absolutefocus.png"
+    },
+    {
+      "name": "Scorch",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/scorch/scorch.png"
+    },
+    {
+      "name": "Waterwalking",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/waterwalking/waterwalking.png"
+    },
+    {
+      "name": "Gathering Storm",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/gatheringstorm/gatheringstorm.png"
+    }
+  ],
+  "Resolve": [
+    {
+      "name": "Grasp of the Undying",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/graspoftheundying/graspoftheundying.png"
+    },
+    {
+      "name": "Aftershock",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/veteranaftershock/veteranaftershock.png"
+    },
+    {
+      "name": "Guardian",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/guardian/guardian.png"
+    },
+    {
+      "name": "Demolish",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/demolish/demolish.png"
+    },
+    {
+      "name": "Font of Life",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/fontoflife/fontoflife.png"
+    },
+    {
+      "name": "Shield Bash",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/mirrorshell/mirrorshell.png"
+    },
+    {
+      "name": "Conditioning",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/conditioning/conditioning.png"
+    },
+    {
+      "name": "Second Wind",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/secondwind/secondwind.png"
+    },
+    {
+      "name": "Bone Plating",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/boneplating/boneplating.png"
+    },
+    {
+      "name": "Overgrowth",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/overgrowth/overgrowth.png"
+    },
+    {
+      "name": "Revitalize",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/revitalize/revitalize.png"
+    },
+    {
+      "name": "Unflinching",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/sorcery/unflinching/unflinching.png"
+    }
+  ],
+  "Inspiration": [
+    {
+      "name": "Glacial Augment",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/glacialaugment/glacialaugment.png"
+    },
+    {
+      "name": "Unsealed Spellbook",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/unsealedspellbook/unsealedspellbook.png"
+    },
+    {
+      "name": "First Strike",
+      "type": "Keystone",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/firststrike/firststrike.png"
+    },
+    {
+      "name": "Hextech Flashtraption",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/hextechflashtraption/hextechflashtraption.png"
+    },
+    {
+      "name": "Biscuit Delivery",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/biscuitdelivery/biscuitdelivery.png"
+    },
+    {
+      "name": "Triple Tonic",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/perfecttiming/alchemistcabinet.png"
+    },
+    {
+      "name": "Magical Footwear",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/magicalfootwear/magicalfootwear.png"
+    },
+    {
+      "name": "Future's Market",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/futuresmarket/futuresmarket.png"
+    },
+    {
+      "name": "Minion Dematerializer",
+      "type": "Minor-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/miniondematerializer/miniondematerializer.png"
+    },
+    {
+      "name": "Cosmic Insight",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/cosmicinsight/cosmicinsight.png"
+    },
+    {
+      "name": "Approach Velocity",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/resolve/approachvelocity/approachvelocity.png"
+    },
+    {
+      "name": "Time Warp Tonic",
+      "type": "Minor-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/timewarptonic/timewarptonic.png"
+    }
+  ],
+  "statShard1": [
+    {
+      "name": "attack speed",
+      "type": "statshard-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsattackspeedicon.png"
+    },
+    {
+      "name": "CDR",
+      "type": "statshard-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodscdrscalingicon.png"
+    },
+    {
+      "name": "Adaptive Force",
+      "type": "statshard-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsadaptiveforceicon.png"
+    }
+  ],
+  "statShard2": [
+    {
+      "name": "Adaptive Force",
+      "type": "statshard-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsadaptiveforceicon.png"
+    },
+    {
+      "name": "Move Speed",
+      "type": "statshard-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsmovementspeedicon.png"
+    },
+    {
+      "name": "Scaling Health",
+      "type": "statshard-2",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthplusicon.png"
+    }
+  ],
+  "statShard3": [
+    {
+      "name": "Bonus Health",
+      "type": "statshard-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthscalingicon.png"
+    },
+    {
+      "name": "Tenacity",
+      "type": "statshard-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodstenacityicon.png"
+    },
+    {
+      "name": "Scaling Health",
+      "type": "statshard-3",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthplusicon.png"
+    }
+  ]
+}

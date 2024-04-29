@@ -1,0 +1,717 @@
+{
+  "startingItems": [
+    {
+      "itemName": "Cull",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1083_marksman_t1_cull.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Doran's ring",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1056_mage_t1_doransring.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Doran's blade",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1055_marksman_t1_doransblade.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Dark Seal",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1082_mage_t1_darkseal.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Doran's Shield",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1054_tank_t1_doransshield.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Gustwalker Hatchling",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1102_jungle_t1_gustwalkerhatchling.png",
+      "requires": "smite"
+    },
+    {
+      "itemName": "Scorchclaw Pup",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1101_jungle_t1_scorchclawpup.png",
+      "requires": "smite"
+    },
+    {
+      "itemName": "Mosstomper Seedling",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/1103_jungle_t1_mosstomperseedling.png",
+      "requires": "smite"
+    },
+    {
+      "itemName": "World Atlas",
+      "itemType": "Starter",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3865_worldatlas.png",
+      "requires": "support"
+    }
+  ],
+  "legendaryItems": [
+    {
+      "itemName": "Abyssal Mask",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/8020_tank_t3_abyssalmask.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Anathema's Chains",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/8001_tank_t3_anathemaschains.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Archangel's Staff",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3003_mage_t3_archangelstaff.png",
+      "requires": "Tear"
+    },
+    {
+      "itemName": "Ardent Censer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3504_enchanter_t3_ardentcenser.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Axiom Arc",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6696_axiomarc.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Banshee's Veil",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3102_mage_t3_bansheesveil.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Black Cleaver",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3071_fighter_t3_blackcleaver.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Blade of the Ruined King",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3153_fighter_t3_bladeoftheruinedking.png",
+      "requires": ""
+    },
+
+    {
+      "itemName": "Bloodthirster",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3072_fighter_t3_bloodthirster.png",
+      "requires": ""
+    },
+
+    {
+      "itemName": "Chempunk Chainsword",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6609_fighter_t3_chempunkchainsword.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Cosmic Drive",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4629_mage_t3_cosmicdrive.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Cryptbloom",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3137_cryptbloom.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Dawncore",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6621_dawncore.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Dead Man's Plate",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3742_tank_t3_deadmansplate.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Death's Dance",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6333_fighter_t3_deathsdance.png",
+      "requires": ""
+    },
+
+    {
+      "itemName": "Echoes of Helia",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6620_echoes_of_helia.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Eclipse",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6692_assassin_t4_eclipse.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Edge of Night",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3814_assassin_t3_edgeofnight.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Essence Reaver",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3508_marksman_t3_essencereaver.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Experimental Hexplate",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3073_hexaegis.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Force of Nature",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4401_tank_t3_forceofnature.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Frozen Heart",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3110_tank_t3_frozenheart.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Guardian Angel",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3026_fighter_t3_guardianangel.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Guinsoo's Rageblade",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3124_marksman_t3_guinsoosrageblade.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Heartsteel",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3084_tank_t4_heartsteel.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Hextech Rocketbelt",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3152_mage_t4_hextechrocketbelt.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Hollow Radiance",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6664_hollowradiance.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Horizon Focus",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4628_mage_t3_horizonfocus.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Hubris",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6697_hubris.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Hullbreaker",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3181_hullbreaker.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Iceborn Gauntlet",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6662_tank_t3_iceborngauntlet.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Immortal Shieldbow",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6673_marksman_t4_crimsonshieldbow.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Imperial Mandate",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4005_enchanter_t4_imperialmandate.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Infinity Edge",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3031_marksman_t3_infinityedge.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Jak'Sho, The Protean",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6665_tank_t4_jakshotheprotean.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Kaenic Rookern",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2504_kaenicrookern.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Knight's Vow",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3109_tank_t3_knightsvow.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Kraken Slayer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6672_marksman_t4_behemothslayer.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Liandry's Torment",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6653_mage_t4_liandrysanguish.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Lich Bane",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3100_mage_t3_lichbane.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Locket of the Iron Solari",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3190_enchanter_t4_locketofironsolari.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Lord Dominik's Regards",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3036_marksman_t3_dominikregards.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Luden's Companion",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6655_casterscompanion.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Malignance",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3118_malignance.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Manamune",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3004_marksman_t3_manamune.png",
+      "requires": "Tear"
+    },
+    {
+      "itemName": "Maw of Malmortius",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3156_fighter_t3_mawofmalmortius.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mejai's Soulstealer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3041_mage_t2_mejaissoulstealer.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mercurial Scimitar",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3139_marksman_t3_mercurialscimitar.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mikael's Blessing",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3222_enchanter_t3_mikaelsblessing.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Moonstone Renewer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6617_enchanter_t4_moonstonerenewer.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Morellonomicon",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3165_mage_t3_morellonomicon.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mortal Reminder",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3033_marksman_t3_mortalreminder.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Nashor's Tooth",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3115_mage_t3_nashorstooth.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Navori Quickblades",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6675_marksman_t3_navoriquickblades.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Opportunity",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6701_opportunity.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Phantom Dancer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3046_marksman_t3_phantomdancer.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Profane Hydra",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6698_profanehydra.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Rabadon's Deathcap",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3089_mage_t3_deathcap.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Randuin's Omen",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3143_tank_t3_randuinsomen.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Rapid Firecannon",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3094_marksman_t3_rapidfirehandcannon.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Ravenous Hydra",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3074_fighter_t3_ravenoushydra.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Redemption",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3107_enchanter_t3_redemption.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Riftmaker",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4633_mage_t4_riftmaker.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Rod of Ages",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6657_mage_t4_rodofages.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Runaan's Hurricane",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3085_marksman_t3_runaans.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Rylai's Crystal Scepter",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3116_mage_t3_rylajscrystalscepter.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Serpent's Fang",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6695_assassin_t3_serpentsfang.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Serylda's Grudge",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6694_assasin_t3_seryldasgrudge.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Shadowflame",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4645_shadowflame.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Shurelya's Battlesong",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2065_tank_t4_shurelyasbattlesong.png",
+      "requires": ""
+    },
+
+    {
+      "itemName": "Spear of Shojin",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3161_fighter_t3_spearofshojin.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Spirit Visage",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3065_tank_t3_spiritvisage.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Staff of Flowing Water",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3744_enchanter_t3_staffofflowingwater.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Statikk Shiv",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3087_statikk_shiv.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Sterak's Gage",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3053_steraks_gage.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Stormrazor",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3095_windblade.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Stormsurge",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/4646_stormsurge.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Stridebreaker",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6631_fighter_t4_stridebreaker.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Sundered Sky",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6610_sunderedsky.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Sunfire Aegis",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3068_tank_t4_sunfireaegis.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Terminus",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3302_terminus.png",
+      "requires": ""
+    },
+    {
+      "itemName": "The Collector",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6676_marksman_t3_thecollector.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Thornmail",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3075_tank_t3_thornmail.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Titanic Hydra",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3748_fighter_t3_titanichydra.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Trailblazer",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3002_trailblazer.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Trinity Force",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3078_fighter_t4_trinityforce.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Umbral Glaive",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3179_assassin_t3_umbralglaive.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Unending Despair",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2502_unendingdespair.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Void Staff",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3135_mage_t3_voidstaff.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Voltaic Cyclosword",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6699_voltaiccyclosword.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Warmog's Armor",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3083_tank_t3_warmogs.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Winter's Approach",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3119_wintersapproach.png",
+      "requires": "Tear"
+    },
+    {
+      "itemName": "Wit's End",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3091_fighter_t3_witsend.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Youmuu's Ghostblade",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3142_assassin_t3_youmuusghostblade.png",
+      "requires": ""
+    },
+
+    {
+      "itemName": "Zeke's Convergence",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3050_enchanter_t3_zekesconvergence.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Zhonya's Hourglass",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3157_mage_t3_zhonyashourglass.png",
+      "requires": ""
+    }
+  ],
+  "boots": [
+    {
+      "itemName": "Berserker's greaves",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3006_class_t2_berserkersgreaves.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Boots of Swiftness",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3009_class_t2_bootsofswiftness.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Sorcerer's shoes",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3020_class_t2_sorcerersshoes.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Ionian Boots of Lucidity",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3158_class_t2_ionianbootsoflucidity.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mercury Treads",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3111_class_t2_mercurystreads.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Mobility Boots",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3117_class_t2_bootsofmobility.png",
+      "requires": ""
+    },
+    {
+      "itemName": "Plated Steelcaps",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3047_class_t2_ninjatabi.png",
+      "requires": ""
+    }
+  ],
+  "supportItems": [
+    {
+      "itemName": "Solstice Sleigh",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3876_solticesleigh.png",
+      "requires": "World Atlas"
+    },
+    {
+      "itemName": "Bloodsong",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3877_bloodsong.png",
+      "requires": "World Atlas"
+    },
+    {
+      "itemName": "Celestial Opposition",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3869_celestialopposition.png",
+      "requires": "World Atlas"
+    },
+    {
+      "itemName": "Zaz'Zak's Realmspike",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3871_zazzaksrealmspike.png",
+      "requires": "World Atlas"
+    },
+    {
+      "itemName": "Dream Maker",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3870_dreammaker.png",
+      "requires": "World Atlas"
+    }
+  ]
+}
