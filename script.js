@@ -1,16 +1,6 @@
 'use strict';
 
-// TODO:
-//JSON file containing runes, items, champions, and summoner spells
-// Make sure support items are only given when world atlas and when support role
-// Smite item only given when smite && jungle
-//Randomizing script
-//Buttons: randomize
-//Import data from the json file
 const randomButton = document.getElementById('randomizeBtn');
-// TODO: Refactor code
-//Make a single randomize index function
-//
 
 // Roles
 let selectedRole = null;
@@ -220,10 +210,37 @@ const randomizeItems = () => {
         }
       };
 
+      const randomizeStarterItem = () => {
+        const startingItems = data['startingItems'];
+        const laneStarters = startingItems.filter(
+          items => items.requires !== 'smite' && items.requires !== 'support'
+        );
+        const worldAtlas = startingItems[8];
+        const randomStarterIndex = Math.floor(
+          Math.random() * laneStarters.length
+        );
+        const randomStarterItem = laneStarters[randomStarterIndex];
+        itemStarter.innerHTML = `<img src="${randomStarterItem.image}" alt="${randomStarterItem.name}">`;
+
+        if (selectedRole.alt === 'Jungle') {
+          const jungleItems = startingItems.filter(
+            items => items.requires === 'smite'
+          );
+          const randomJungleItem =
+            jungleItems[Math.floor(Math.random() * jungleItems.length)];
+
+          itemStarter.innerHTML = `<img src="${randomJungleItem.image}" alt="${randomJungleItem}">`;
+        }
+
+        if (selectedRole.alt === 'Support') {
+          itemStarter.innerHTML = `<img src="${worldAtlas.image}" alt="${worldAtlas.name}">`;
+        }
+      };
       // CALL ON THE RANDOMIZE FUNCTIONS
       randomizeLegendaryItems();
       randomizeBoots();
       randomizeSupportItem();
+      randomizeStarterItem();
     })
     .catch(error => console.error('Error fetching items:', error));
 };
