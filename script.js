@@ -73,15 +73,17 @@ const randomizeRunes = () => {
         const secondaryTreeNoKeystones = secondaryTree.filter(
           (runes) => runes.type !== "Keystone"
         );
-        const getSecondaryRune = (runeList) => {
-          runeList[Math.floor(Math.random() * runeList.length)];
-        };
-        const secondaryRune1 = getSecondaryRune(secondaryTreeNoKeystones);
-        const secondaryRune2 = getSecondaryRune(
-          secondaryTreeNoKeystones.filter(
-            (runes) => runes.type !== secondaryRune1.type
-          )
+        const secondaryRune1 =
+          secondaryTreeNoKeystones[
+            Math.floor(Math.random() * secondaryTreeNoKeystones.length)
+          ];
+        const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
+          (runes) => runes.type !== secondaryRune1.type
         );
+        const secondaryRune2 =
+          secondaryRuneTree2[
+            Math.floor(Math.random() * secondaryRuneTree2.length)
+          ];
         rune5.style.backgroundImage = `url(${secondaryRune1.icon})`;
         rune6.style.backgroundImage = `url(${secondaryRune2.icon})`;
       };
