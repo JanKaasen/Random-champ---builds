@@ -132,9 +132,12 @@ const randomizeSpells = () => {
 
       const randomizeSpell = () => {
         for (let i = 0; i < 2; i++) {
-          const availableSpells = spellList.filter(
+          let availableSpells = spellList.filter(
             spell => !usedSpells.includes(spell)
           );
+          if (selectedRole.alt === 'Jungle') {
+            availableSpells = spellList.filter(spell => spell.name !== 'Smite');
+          }
           const randomIndex = Math.floor(
             Math.random() * availableSpells.length
           );
