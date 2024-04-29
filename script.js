@@ -61,26 +61,18 @@ const randomizeRunes = () => {
       const randomTreeIndex = Math.floor(Math.random() * runeTrees.length);
       const treeType = runeTrees[randomTreeIndex];
       const runeTree = data[runeTrees[randomTreeIndex]];
-      const randomizeKeystone = () => {
-        const keystoneDiv = document.getElementById('rune1');
-        const keystones = runeTree.filter(rune => rune.type === 'Keystone');
-        const keystoneIndex = Math.floor(Math.random() * keystones.length);
-        const randomKeystone = keystones[keystoneIndex];
-        keystoneDiv.style.backgroundImage = `url(${randomKeystone.icon})`;
+      const randomizeRune = (type, targetElement) => {
+        const runeType = runeTree.filter(rune => rune.type === type);
+        const randomIndex = Math.floor(Math.random() * runeType.length);
+        const randomRune = runeType[randomIndex];
+        targetElement.style.backgroundImage = `url(${randomRune.icon})`;
       };
-      const randomizeMinorRunes = () => {
-        const minor1runes = runeTree.filter(rune => rune.type === 'Minor-1');
-        const minor1Index = Math.floor(Math.random() * minor1runes.length);
-        const randomMinor1 = minor1runes[minor1Index];
-        rune2.style.backgroundImage = `url(${randomMinor1.icon})`;
-        const minor2runes = runeTree.filter(rune => rune.type === 'Minor-2');
-        const minor2Index = Math.floor(Math.random() * minor2runes.length);
-        const randomMinor2 = minor2runes[minor2Index];
-        rune3.style.backgroundImage = `url(${randomMinor2.icon})`;
-        const minor3runes = runeTree.filter(rune => rune.type === 'Minor-3');
-        const minor3Index = Math.floor(Math.random() * minor3runes.length);
-        const randomMinor3 = minor3runes[minor3Index];
-        rune4.style.backgroundImage = `url(${randomMinor3.icon})`;
+
+      const randomizePrimaryTree = () => {
+        randomizeRune('Keystone', rune1);
+        randomizeRune('Minor-1', rune2);
+        randomizeRune('Minor-2', rune3);
+        randomizeRune('Minor-3', rune4);
       };
       const randomizeSecondaryTree = () => {
         const secondaryTrees = runeTrees.filter(tree => tree !== treeType);
@@ -121,8 +113,7 @@ const randomizeRunes = () => {
         rune8.style.backgroundImage = `url(${randomShard2.icon})`;
         rune9.style.backgroundImage = `url(${randomShard3.icon})`;
       };
-      randomizeKeystone();
-      randomizeMinorRunes();
+      randomizePrimaryTree();
       randomizeSecondaryTree();
       randomizeStatShards();
     });
