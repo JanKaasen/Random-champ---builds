@@ -158,7 +158,6 @@ const randomizeSpells = () => {
     .catch(error => console.error('Error fetching summoner spells', error));
 };
 
-//TODO: CLEAN UP
 const randomizeItems = () => {
   const item1 = document.getElementById('item1');
   const item2 = document.getElementById('item2');
