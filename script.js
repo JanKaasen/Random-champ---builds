@@ -4,7 +4,7 @@ const randomButton = document.getElementById("randomizeBtn");
 
 // Roles
 let selectedRole = null;
-fetch("roles.json")
+fetch("./JSONfiles/roles.json")
   .then((response) => response.json())
   .then((data) => {
     const rolesContainer = document.querySelector(".roles-container");
@@ -38,7 +38,7 @@ fetch("roles.json")
 
 // RANDOMIZE RUNES
 const randomizeRunes = () => {
-  fetch("Runes.json")
+  fetch("./JSONfiles/Runes.json")
     .then((response) => response.json())
     .then((data) => {
       const runeTrees = [
@@ -110,7 +110,7 @@ const randomizeRunes = () => {
 };
 const randomizeChampions = () => {
   const championImageBox = document.getElementById("championImage");
-  fetch("champion_summary.json")
+  fetch("./JSONfiles/champion_summary.json")
     .then((response) => response.json())
     .then((data) => {
       const championList = data["champion_list"];
@@ -124,7 +124,7 @@ const randomizeChampions = () => {
 };
 
 const randomizeSpells = () => {
-  fetch("summoner_spells.json")
+  fetch("./JSONfiles/summoner_spells.json")
     .then((response) => response.json())
     .then((data) => {
       const spellList = data["summoner_spells"];
@@ -163,7 +163,7 @@ const randomizeSpells = () => {
 const randomizeItems = () => {
   const item1 = document.getElementById("item1");
   const item2 = document.getElementById("item2");
-  fetch("items.json")
+  fetch("./JSONfiles/items.json")
     .then((response) => response.json())
     .then((data) => {
       // Randomize items
