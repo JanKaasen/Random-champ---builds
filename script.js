@@ -1,11 +1,16 @@
 "use strict";
 
 const randomButton = document.getElementById("randomizeBtn");
-
+const fetchData = (url) => {
+  return fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .catch((error) => console.error(`Error fetching data from ${url}`));
+};
 // Roles
 let selectedRole = null;
-fetch("./JSONfiles/roles.json")
-  .then((response) => response.json())
+fetchData("./JSONfiles/roles.json")
   .then((data) => {
     const rolesContainer = document.querySelector(".roles-container");
     const roles = data.roles;
@@ -38,80 +43,75 @@ fetch("./JSONfiles/roles.json")
 
 // RANDOMIZE RUNES
 const randomizeRunes = () => {
-  fetch("./JSONfiles/Runes.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const runeTrees = [
-        "Precision",
-        "Domination",
-        "Sorcery",
-        "Resolve",
-        "Inspiration",
-      ];
-      const randomTreeIndex = Math.floor(Math.random() * runeTrees.length);
-      const treeType = runeTrees[randomTreeIndex];
-      const runeTree = data[runeTrees[randomTreeIndex]];
-      const randomizeRune = (type, targetElement) => {
-        const runeType = runeTree.filter((rune) => rune.type === type);
-        const randomIndex = Math.floor(Math.random() * runeType.length);
-        const randomRune = runeType[randomIndex];
-        targetElement.style.backgroundImage = `url(${randomRune.icon})`;
-      };
+  fetchData("./JSONfiles/Runes.json").then((data) => {
+    const runeTrees = [
+      "Precision",
+      "Domination",
+      "Sorcery",
+      "Resolve",
+      "Inspiration",
+    ];
+    const randomTreeIndex = Math.floor(Math.random() * runeTrees.length);
+    const treeType = runeTrees[randomTreeIndex];
+    const runeTree = data[runeTrees[randomTreeIndex]];
+    const randomizeRune = (type, targetElement) => {
+      const runeType = runeTree.filter((rune) => rune.type === type);
+      const randomIndex = Math.floor(Math.random() * runeType.length);
+      const randomRune = runeType[randomIndex];
+      targetElement.style.backgroundImage = `url(${randomRune.icon})`;
+    };
 
-      const randomizePrimaryTree = () => {
-        randomizeRune("Keystone", rune1);
-        randomizeRune("Minor-1", rune2);
-        randomizeRune("Minor-2", rune3);
-        randomizeRune("Minor-3", rune4);
-      };
-      const randomizeSecondaryTree = () => {
-        const secondaryTrees = runeTrees.filter((tree) => tree !== treeType);
-        const secondaryIndex = Math.floor(
-          Math.random() * secondaryTrees.length
-        );
-        const secondaryTree = data[secondaryTrees[secondaryIndex]];
-        const secondaryTreeNoKeystones = secondaryTree.filter(
-          (runes) => runes.type !== "Keystone"
-        );
-        const secondaryRune1 =
-          secondaryTreeNoKeystones[
-            Math.floor(Math.random() * secondaryTreeNoKeystones.length)
-          ];
-        const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
-          (runes) => runes.type !== secondaryRune1.type
-        );
-        const secondaryRune2 =
-          secondaryRuneTree2[
-            Math.floor(Math.random() * secondaryRuneTree2.length)
-          ];
-        rune5.style.backgroundImage = `url(${secondaryRune1.icon})`;
-        rune6.style.backgroundImage = `url(${secondaryRune2.icon})`;
-      };
-      const randomizeStatShards = () => {
-        let randomIndexes = [];
-        const statShard1 = data["statShard1"];
-        const statShard2 = data["statShard2"];
-        const statShard3 = data["statShard3"];
-        for (let i = 0; i < 3; i++) {
-          let randomNumber = Math.floor(Math.random() * statShard1.length);
-          randomIndexes.push(randomNumber);
-        }
-        const randomShard1 = statShard1[randomIndexes[0]];
-        const randomShard2 = statShard2[randomIndexes[1]];
-        const randomShard3 = statShard3[randomIndexes[2]];
-        rune7.style.backgroundImage = `url(${randomShard1.icon})`;
-        rune8.style.backgroundImage = `url(${randomShard2.icon})`;
-        rune9.style.backgroundImage = `url(${randomShard3.icon})`;
-      };
-      randomizePrimaryTree();
-      randomizeSecondaryTree();
-      randomizeStatShards();
-    });
+    const randomizePrimaryTree = () => {
+      randomizeRune("Keystone", rune1);
+      randomizeRune("Minor-1", rune2);
+      randomizeRune("Minor-2", rune3);
+      randomizeRune("Minor-3", rune4);
+    };
+    const randomizeSecondaryTree = () => {
+      const secondaryTrees = runeTrees.filter((tree) => tree !== treeType);
+      const secondaryIndex = Math.floor(Math.random() * secondaryTrees.length);
+      const secondaryTree = data[secondaryTrees[secondaryIndex]];
+      const secondaryTreeNoKeystones = secondaryTree.filter(
+        (runes) => runes.type !== "Keystone"
+      );
+      const secondaryRune1 =
+        secondaryTreeNoKeystones[
+          Math.floor(Math.random() * secondaryTreeNoKeystones.length)
+        ];
+      const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
+        (runes) => runes.type !== secondaryRune1.type
+      );
+      const secondaryRune2 =
+        secondaryRuneTree2[
+          Math.floor(Math.random() * secondaryRuneTree2.length)
+        ];
+      rune5.style.backgroundImage = `url(${secondaryRune1.icon})`;
+      rune6.style.backgroundImage = `url(${secondaryRune2.icon})`;
+    };
+    const randomizeStatShards = () => {
+      let randomIndexes = [];
+      const statShard1 = data["statShard1"];
+      const statShard2 = data["statShard2"];
+      const statShard3 = data["statShard3"];
+      for (let i = 0; i < 3; i++) {
+        let randomNumber = Math.floor(Math.random() * statShard1.length);
+        randomIndexes.push(randomNumber);
+      }
+      const randomShard1 = statShard1[randomIndexes[0]];
+      const randomShard2 = statShard2[randomIndexes[1]];
+      const randomShard3 = statShard3[randomIndexes[2]];
+      rune7.style.backgroundImage = `url(${randomShard1.icon})`;
+      rune8.style.backgroundImage = `url(${randomShard2.icon})`;
+      rune9.style.backgroundImage = `url(${randomShard3.icon})`;
+    };
+    randomizePrimaryTree();
+    randomizeSecondaryTree();
+    randomizeStatShards();
+  });
 };
 const randomizeChampions = () => {
   const championImageBox = document.getElementById("championImage");
-  fetch("./JSONfiles/champion_summary.json")
-    .then((response) => response.json())
+  fetchData("./JSONfiles/champion_summary.json")
     .then((data) => {
       const championList = data["champion_list"];
       const randomIndex = Math.floor(Math.random() * championList.length);
@@ -124,8 +124,7 @@ const randomizeChampions = () => {
 };
 
 const randomizeSpells = () => {
-  fetch("./JSONfiles/summoner_spells.json")
-    .then((response) => response.json())
+  fetchData("./JSONfiles/summoner_spells.json")
     .then((data) => {
       const spellList = data["summoner_spells"];
       let usedSpells = [];
@@ -163,8 +162,7 @@ const randomizeSpells = () => {
 const randomizeItems = () => {
   const item1 = document.getElementById("item1");
   const item2 = document.getElementById("item2");
-  fetch("./JSONfiles/items.json")
-    .then((response) => response.json())
+  fetchData("./JSONfiles/items.json")
     .then((data) => {
       // Randomize items
       const randomizeLegendaryItems = () => {
