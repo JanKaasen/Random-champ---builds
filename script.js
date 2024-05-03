@@ -6,7 +6,7 @@ const fetchData = (url) => {
     .then((response) => {
       return response.json();
     })
-    .catch((error) => console.error(`Error fetching data from ${url}`));
+    .catch((error) => console.error(`Error fetching data from ${url}`, error));
 };
 // Roles
 let selectedRole = null;
