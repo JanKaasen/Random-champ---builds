@@ -1,5 +1,3 @@
-"use strict";
-
 const randomButton = document.getElementById("randomizeBtn");
 const fetchData = (url) => {
   return fetch(url)
