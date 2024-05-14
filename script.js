@@ -7,7 +7,7 @@ const fetchData = (url) => {
     })
     .catch((error) => console.error(`Error fetching data from ${url}`, error));
 };
-// Roles
+
 let selectedRole = null;
 fetchData("./JSONfiles/roles.json")
   .then((data) => {
@@ -40,7 +40,6 @@ fetchData("./JSONfiles/roles.json")
   })
   .catch((error) => console.error("Error loading icons:", error));
 
-// RANDOMIZE RUNES
 const randomizeRunes = () => {
   fetchData("./JSONfiles/Runes.json").then((data) => {
     const runeTrees = [
@@ -71,14 +70,14 @@ const randomizeRunes = () => {
       const secondaryIndex = Math.floor(Math.random() * secondaryTrees.length);
       const secondaryTree = data[secondaryTrees[secondaryIndex]];
       const secondaryTreeNoKeystones = secondaryTree.filter(
-        (runes) => runes.type !== "Keystone",
+        (runes) => runes.type !== "Keystone"
       );
       const secondaryRune1 =
         secondaryTreeNoKeystones[
           Math.floor(Math.random() * secondaryTreeNoKeystones.length)
         ];
       const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
-        (runes) => runes.type !== secondaryRune1.type,
+        (runes) => runes.type !== secondaryRune1.type
       );
       const secondaryRune2 =
         secondaryRuneTree2[
@@ -118,7 +117,7 @@ const randomizeChampions = () => {
       championImageBox.innerHTML = `<img src="${randomizedChampion.image}" alt = "${randomizedChampion.name}">`;
     })
     .catch((error) =>
-      console.error(`Error fetching from champions_summary`, error),
+      console.error(`Error fetching from champions_summary`, error)
     );
 };
 
@@ -131,24 +130,26 @@ const randomizeSpells = () => {
       const randomizeSpell = () => {
         for (let i = 0; i < 2; i++) {
           let availableSpells = spellList.filter(
-            (spell) => !usedSpells.includes(spell),
+            (spell) => !usedSpells.includes(spell)
           );
           if (selectedRole.alt === "Jungle") {
             availableSpells = spellList.filter(
-              (spell) => spell.name !== "Smite",
+              (spell) => spell.name !== "Smite"
             );
           }
           const randomIndex = Math.floor(
-            Math.random() * availableSpells.length,
+            Math.random() * availableSpells.length
           );
           const randomSpell = availableSpells[randomIndex];
           usedSpells.push(randomSpell);
-          document.getElementById(`summonerSpell${i + 1}`).innerHTML =
-            `<img src="${randomSpell.icon}" alt="${randomSpell.name}">`;
+          document.getElementById(
+            `summonerSpell${i + 1}`
+          ).innerHTML = `<img src="${randomSpell.icon}" alt="${randomSpell.name}">`;
         }
         if (selectedRole.alt === "Jungle") {
-          document.getElementById("summonerSpell2").innerHTML =
-            `<img src="${spellList[7].icon}" alt="${spellList[7]}.name">`;
+          document.getElementById(
+            "summonerSpell2"
+          ).innerHTML = `<img src="${spellList[7].icon}" alt="${spellList[7]}.name">`;
         }
       };
       randomizeSpell();
@@ -161,34 +162,33 @@ const randomizeItems = () => {
   const item2 = document.getElementById("item2");
   fetchData("./JSONfiles/items.json")
     .then((data) => {
-      // Randomize items
       const randomizeLegendaryItems = () => {
         let tearItemSelected = false;
         let itemsList = data["legendaryItems"];
         const selectedItems = [];
         for (let i = 0; i < 5; i++) {
           let availableItems = itemsList.filter(
-            (item) => !selectedItems.includes(item),
+            (item) => !selectedItems.includes(item)
           );
           if (tearItemSelected === true) {
             availableItems = availableItems.filter(
-              (item) => item.requires !== "Tear",
+              (item) => item.requires !== "Tear"
             );
           }
           const randomItemIndex = Math.floor(
-            Math.random() * availableItems.length,
+            Math.random() * availableItems.length
           );
           const randomItem = availableItems[randomItemIndex];
           if (randomItem.requires === "Tear") {
             tearItemSelected = true;
           }
           selectedItems.push(randomItem);
-          document.getElementById(`item${i + 2}`).innerHTML =
-            `<img src="${randomItem.image}" alt="${randomItem.name}">`;
+          document.getElementById(
+            `item${i + 2}`
+          ).innerHTML = `<img src="${randomItem.image}" alt="${randomItem.name}">`;
         }
       };
 
-      // Randomize Boots
       const randomizeBoots = () => {
         const bootsList = data["boots"];
         const randomBootIndex = Math.floor(Math.random() * bootsList.length);
@@ -196,12 +196,11 @@ const randomizeItems = () => {
         item1.innerHTML = `<img src = "${randomBoots.image}" alt="${randomBoots.name}">`;
       };
 
-      // Checks if role is support, gives support item in slot 1
       const randomizeSupportItem = () => {
         if (selectedRole.alt === "Support") {
           const supportItemList = data["supportItems"];
           const randomSupportIndex = Math.floor(
-            Math.random() * supportItemList.length,
+            Math.random() * supportItemList.length
           );
           const randomSupportItem = supportItemList[randomSupportIndex];
           item2.innerHTML = `<img src ="${randomSupportItem.image}" alt="${randomSupportItem.name}">`;
@@ -211,18 +210,18 @@ const randomizeItems = () => {
       const randomizeStarterItem = () => {
         const startingItems = data["startingItems"];
         const laneStarters = startingItems.filter(
-          (items) => items.requires !== "smite" && items.requires !== "support",
+          (items) => items.requires !== "smite" && items.requires !== "support"
         );
         const worldAtlas = startingItems[8];
         const randomStarterIndex = Math.floor(
-          Math.random() * laneStarters.length,
+          Math.random() * laneStarters.length
         );
         const randomStarterItem = laneStarters[randomStarterIndex];
         itemStarter.innerHTML = `<img src="${randomStarterItem.image}" alt="${randomStarterItem.name}">`;
 
         if (selectedRole.alt === "Jungle") {
           const jungleItems = startingItems.filter(
-            (items) => items.requires === "smite",
+            (items) => items.requires === "smite"
           );
           const randomJungleItem =
             jungleItems[Math.floor(Math.random() * jungleItems.length)];
@@ -234,7 +233,6 @@ const randomizeItems = () => {
           itemStarter.innerHTML = `<img src="${worldAtlas.image}" alt="${worldAtlas.name}">`;
         }
       };
-      // CALL ON THE RANDOMIZE FUNCTIONS
       randomizeLegendaryItems();
       randomizeBoots();
       randomizeSupportItem();
