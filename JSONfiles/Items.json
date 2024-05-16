@@ -63,12 +63,6 @@
       "requires": ""
     },
     {
-      "itemName": "Anathema's Chains",
-      "itemType": "Legendary",
-      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/8001_tank_t3_anathemaschains.png",
-      "requires": ""
-    },
-    {
       "itemName": "Archangel's Staff",
       "itemType": "Legendary",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3003_mage_t3_archangelstaff.png",
@@ -97,6 +91,11 @@
       "itemType": "Legendary",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3071_fighter_t3_blackcleaver.png",
       "requires": ""
+    },
+    {
+      "itemName": "Blackfire Torch",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2503_blackfiretorch64.png"
     },
     {
       "itemName": "Blade of the Ruined King",
@@ -380,7 +379,7 @@
     {
       "itemName": "Navori Quickblades",
       "itemType": "Legendary",
-      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6675_marksman_t3_navoriquickblades.png",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6675_navoriflickerblade.png",
       "requires": ""
     },
     {
@@ -388,6 +387,11 @@
       "itemType": "Legendary",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6701_opportunity.png",
       "requires": ""
+    },
+    {
+      "itemName": "Overlord's Bloodmail",
+      "itemType": "Legendary",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/7111_overlordsbloodmail.png"
     },
     {
       "itemName": "Phantom Dancer",
@@ -511,9 +515,9 @@
       "requires": ""
     },
     {
-      "itemName": "Stormrazor",
+      "itemName": "Yun Tal Wildarrows",
       "itemType": "Legendary",
-      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3095_windblade.png",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3032_yuntalwildarrows.png",
       "requires": ""
     },
     {
@@ -670,9 +674,9 @@
       "requires": ""
     },
     {
-      "itemName": "Mobility Boots",
+      "itemName": "Symbiotic Soles",
       "itemType": "Boots",
-      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3117_class_t2_bootsofmobility.png",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3010_voidboots.png",
       "requires": ""
     },
     {
@@ -680,6 +684,11 @@
       "itemType": "Boots",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3047_class_t2_ninjatabi.png",
       "requires": ""
+    },
+    {
+      "itemName": "Zephyr",
+      "itemType": "Boots",
+      "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3172_zephyr.png"
     }
   ],
   "supportItems": [

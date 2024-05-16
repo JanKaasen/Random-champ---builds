@@ -6,11 +6,6 @@
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/conqueror/conqueror.png"
     },
     {
-      "name": "Lethal Tempo",
-      "type": "Keystone",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/lethaltempo/lethaltempotemp.png"
-    },
-    {
       "name": "Press the attack",
       "type": "Keystone",
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/presstheattack/presstheattack.png"
@@ -21,9 +16,9 @@
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/fleetfootwork/fleetfootwork.png"
     },
     {
-      "name": "Overheal",
+      "name": "Absorb Life",
       "type": "Minor-1",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/overheal.png"
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/absorblife/absorblife.png"
     },
     {
       "name": "Triumph",
@@ -41,9 +36,9 @@
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendalacrity/legendalacrity.png"
     },
     {
-      "name": "Legend: Tenacity",
+      "name": "Legend: Haste",
       "type": "Minor-2",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendtenacity/legendtenacity.png"
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/precision/legendhaste/legendhaste.png"
     },
     {
       "name": "Legend: Bloodline",
@@ -71,11 +66,6 @@
       "name": "Electrocute",
       "type": "Keystone",
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/electrocute/electrocute.png"
-    },
-    {
-      "name": "Predator",
-      "type": "Keystone",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/predator/predator.png"
     },
     {
       "name": "Hail of blades",
@@ -116,11 +106,6 @@
       "name": "Treasure Hunter",
       "type": "Minor-3",
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/treasurehunter/treasurehunter.png"
-    },
-    {
-      "name": "Ingenious Hunter",
-      "type": "Minor-3",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/domination/ingenioushunter/ingenioushunter.png"
     },
     {
       "name": "Relentless Hunter",
@@ -285,7 +270,7 @@
     },
     {
       "name": "Triple Tonic",
-      "type": "Minor-1",
+      "type": "Minor-2",
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/perfecttiming/alchemistcabinet.png"
     },
     {
@@ -294,14 +279,14 @@
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/magicalfootwear/magicalfootwear.png"
     },
     {
-      "name": "Future's Market",
-      "type": "Minor-2",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/futuresmarket/futuresmarket.png"
+      "name": "Cash Back",
+      "type": "Minor-1",
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/cashback/cashback2.png"
     },
     {
-      "name": "Minion Dematerializer",
+      "name": "Jack of All Trades",
       "type": "Minor-2",
-      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/miniondematerializer/miniondematerializer.png"
+      "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/jackofalltrades/jackofalltrades2.png"
     },
     {
       "name": "Cosmic Insight",
@@ -315,7 +300,7 @@
     },
     {
       "name": "Time Warp Tonic",
-      "type": "Minor-3",
+      "type": "Minor-2",
       "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/styles/inspiration/timewarptonic/timewarptonic.png"
     }
   ],
