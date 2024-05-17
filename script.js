@@ -1,5 +1,4 @@
 "use strict";
-const randomButton = document.getElementById("randomizeBtn");
 const fetchData = (url) => {
   return fetch(url)
     .then((response) => {
@@ -16,7 +15,7 @@ fetchData("./JSONfiles/roles.json")
     roles.forEach((role) => {
       const image = document.createElement("img");
       image.src = role.iconInactive;
-      image.alt = role.name;
+              image.alt = role.name;
       image.className = "role-icon";
       image.dataset.active = role.iconActive;
       image.dataset.inactive = role.iconInactive;
@@ -248,6 +247,7 @@ const randomizeAll = () => {
   randomizeRunes();
 };
 
+const randomButton = document.getElementById("randomizeBtn");
 randomButton.addEventListener("click", () => {
   if (selectedRole === null) {
     alert("Please select a role");
