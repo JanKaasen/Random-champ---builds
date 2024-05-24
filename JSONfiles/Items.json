@@ -103,14 +103,12 @@
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3153_fighter_t3_bladeoftheruinedking.png",
       "requires": ""
     },
-
     {
       "itemName": "Bloodthirster",
       "itemType": "Legendary",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3072_fighter_t3_bloodthirster.png",
       "requires": ""
     },
-
     {
       "itemName": "Chempunk Chainsword",
       "itemType": "Legendary",
@@ -147,7 +145,6 @@
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/6333_fighter_t3_deathsdance.png",
       "requires": ""
     },
-
     {
       "itemName": "Echoes of Helia",
       "itemType": "Legendary",
@@ -483,7 +480,6 @@
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2065_tank_t4_shurelyasbattlesong.png",
       "requires": ""
     },
-
     {
       "itemName": "Spear of Shojin",
       "itemType": "Legendary",
@@ -628,7 +624,6 @@
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3142_assassin_t3_youmuusghostblade.png",
       "requires": ""
     },
-
     {
       "itemName": "Zeke's Convergence",
       "itemType": "Legendary",

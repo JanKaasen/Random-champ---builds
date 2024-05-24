@@ -15,7 +15,7 @@ fetchData("./JSONfiles/roles.json")
     roles.forEach((role) => {
       const image = document.createElement("img");
       image.src = role.iconInactive;
-              image.alt = role.name;
+      image.alt = role.name;
       image.className = "role-icon";
       image.dataset.active = role.iconActive;
       image.dataset.inactive = role.iconInactive;
@@ -73,14 +73,14 @@ const randomizeRunes = () => {
       );
       const secondaryRune1 =
         secondaryTreeNoKeystones[
-          Math.floor(Math.random() * secondaryTreeNoKeystones.length)
+        Math.floor(Math.random() * secondaryTreeNoKeystones.length)
         ];
       const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
         (runes) => runes.type !== secondaryRune1.type
       );
       const secondaryRune2 =
         secondaryRuneTree2[
-          Math.floor(Math.random() * secondaryRuneTree2.length)
+        Math.floor(Math.random() * secondaryRuneTree2.length)
         ];
       rune5.style.backgroundImage = `url(${secondaryRune1.icon})`;
       rune6.style.backgroundImage = `url(${secondaryRune2.icon})`;

@@ -47,6 +47,7 @@ html {
   background-size: cover;
   background-position: center;
 }
+
 .item,
 #summonerSpell1,
 #summonerSpell2 {
@@ -89,6 +90,7 @@ html {
   gap: 10px;
   margin: 20px 0;
 }
+
 .role-icon {
   width: 69px;
   cursor: pointer;
@@ -104,6 +106,7 @@ html {
   background-size: cover;
   background-position: center;
 }
+
 #rune7,
 #rune8,
 #rune9 {
