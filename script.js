@@ -69,18 +69,18 @@ const randomizeRunes = () => {
       const secondaryIndex = Math.floor(Math.random() * secondaryTrees.length);
       const secondaryTree = data[secondaryTrees[secondaryIndex]];
       const secondaryTreeNoKeystones = secondaryTree.filter(
-        (runes) => runes.type !== "Keystone"
+        (runes) => runes.type !== "Keystone",
       );
       const secondaryRune1 =
         secondaryTreeNoKeystones[
-        Math.floor(Math.random() * secondaryTreeNoKeystones.length)
+          Math.floor(Math.random() * secondaryTreeNoKeystones.length)
         ];
       const secondaryRuneTree2 = secondaryTreeNoKeystones.filter(
-        (runes) => runes.type !== secondaryRune1.type
+        (runes) => runes.type !== secondaryRune1.type,
       );
       const secondaryRune2 =
         secondaryRuneTree2[
-        Math.floor(Math.random() * secondaryRuneTree2.length)
+          Math.floor(Math.random() * secondaryRuneTree2.length)
         ];
       rune5.style.backgroundImage = `url(${secondaryRune1.icon})`;
       rune6.style.backgroundImage = `url(${secondaryRune2.icon})`;
@@ -116,7 +116,7 @@ const randomizeChampions = () => {
       championImageBox.innerHTML = `<img src="${randomizedChampion.image}" alt = "${randomizedChampion.name}">`;
     })
     .catch((error) =>
-      console.error(`Error fetching from champions_summary`, error)
+      console.error(`Error fetching from champions_summary`, error),
     );
 };
 
@@ -129,26 +129,24 @@ const randomizeSpells = () => {
       const randomizeSpell = () => {
         for (let i = 0; i < 2; i++) {
           let availableSpells = spellList.filter(
-            (spell) => !usedSpells.includes(spell)
+            (spell) => !usedSpells.includes(spell),
           );
           if (selectedRole.alt === "Jungle") {
             availableSpells = spellList.filter(
-              (spell) => spell.name !== "Smite"
+              (spell) => spell.name !== "Smite",
             );
           }
           const randomIndex = Math.floor(
-            Math.random() * availableSpells.length
+            Math.random() * availableSpells.length,
           );
           const randomSpell = availableSpells[randomIndex];
           usedSpells.push(randomSpell);
-          document.getElementById(
-            `summonerSpell${i + 1}`
-          ).innerHTML = `<img src="${randomSpell.icon}" alt="${randomSpell.name}">`;
+          document.getElementById(`summonerSpell${i + 1}`).innerHTML =
+            `<img src="${randomSpell.icon}" alt="${randomSpell.name}">`;
         }
         if (selectedRole.alt === "Jungle") {
-          document.getElementById(
-            "summonerSpell2"
-          ).innerHTML = `<img src="${spellList[7].icon}" alt="${spellList[7]}.name">`;
+          document.getElementById("summonerSpell2").innerHTML =
+            `<img src="${spellList[7].icon}" alt="${spellList[7]}.name">`;
         }
       };
       randomizeSpell();
@@ -167,24 +165,23 @@ const randomizeItems = () => {
         const selectedItems = [];
         for (let i = 0; i < 5; i++) {
           let availableItems = itemsList.filter(
-            (item) => !selectedItems.includes(item)
+            (item) => !selectedItems.includes(item),
           );
           if (tearItemSelected === true) {
             availableItems = availableItems.filter(
-              (item) => item.requires !== "Tear"
+              (item) => item.requires !== "Tear",
             );
           }
           const randomItemIndex = Math.floor(
-            Math.random() * availableItems.length
+            Math.random() * availableItems.length,
           );
           const randomItem = availableItems[randomItemIndex];
           if (randomItem.requires === "Tear") {
             tearItemSelected = true;
           }
           selectedItems.push(randomItem);
-          document.getElementById(
-            `item${i + 2}`
-          ).innerHTML = `<img src="${randomItem.image}" alt="${randomItem.name}">`;
+          document.getElementById(`item${i + 2}`).innerHTML =
+            `<img src="${randomItem.image}" alt="${randomItem.name}">`;
         }
       };
 
@@ -199,7 +196,7 @@ const randomizeItems = () => {
         if (selectedRole.alt === "Support") {
           const supportItemList = data["supportItems"];
           const randomSupportIndex = Math.floor(
-            Math.random() * supportItemList.length
+            Math.random() * supportItemList.length,
           );
           const randomSupportItem = supportItemList[randomSupportIndex];
           item2.innerHTML = `<img src ="${randomSupportItem.image}" alt="${randomSupportItem.name}">`;
@@ -209,18 +206,18 @@ const randomizeItems = () => {
       const randomizeStarterItem = () => {
         const startingItems = data["startingItems"];
         const laneStarters = startingItems.filter(
-          (items) => items.requires !== "smite" && items.requires !== "support"
+          (items) => items.requires !== "smite" && items.requires !== "support",
         );
         const worldAtlas = startingItems[8];
         const randomStarterIndex = Math.floor(
-          Math.random() * laneStarters.length
+          Math.random() * laneStarters.length,
         );
         const randomStarterItem = laneStarters[randomStarterIndex];
         itemStarter.innerHTML = `<img src="${randomStarterItem.image}" alt="${randomStarterItem.name}">`;
 
         if (selectedRole.alt === "Jungle") {
           const jungleItems = startingItems.filter(
-            (items) => items.requires === "smite"
+            (items) => items.requires === "smite",
           );
           const randomJungleItem =
             jungleItems[Math.floor(Math.random() * jungleItems.length)];
