@@ -1168,6 +1168,13 @@
       "alias": "Naafiri",
       "image": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/950.png",
       "roles": ["assassin"]
-    }
+    }, 
+    {
+      "id": 893,
+      "name": "Aurora",
+      "alias": "Aurora",
+      "image":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/893.png",
+      "roles": ["mage"]
+    },
   ]
 }
